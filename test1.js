@@ -4,4 +4,6 @@ fixture`Getting Started`
 
 test('My first test', async t => {
     // Test code
+    await t
+        .takeScreenshot();
 });

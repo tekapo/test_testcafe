@@ -16,3 +16,8 @@ jobs:
         uses: DevExpress/testcafe-action@latest
         with:
             args: "ie test1.js"
+      - name: Upload TestCafe artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: TestCafe artifacts
+          path: ./screenshots
