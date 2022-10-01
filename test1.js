@@ -1,4 +1,3 @@
-import { Selector } from 'testcafe';
 
 fixture`Getting Started`
     .page`https://devexpress.github.io/testcafe/example`;
