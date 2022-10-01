@@ -1,4 +1,4 @@
-
+// test.
 fixture`Getting Started`
     .page`https://devexpress.github.io/testcafe/example`;
 
